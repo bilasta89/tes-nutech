@@ -48,7 +48,7 @@ const Cart = () => {
         {!isEmpty && (
           <Row style={{ position: "fixed", bottom: 0 }} className={`${theme ? "bg-light-black text-light" : "bg-light text-balck"} justify-content-center w-100`}>
             <Col className="py-2">
-              <h4>Total Price: Rs. {cartTotal}</h4>
+              <h4>Total Belanja: $ {cartTotal}</h4>
             </Col>
             <Col className="p-0" md={4}>
               <Button variant="danger" className="m-2" onClick={() => emptyCart()}>
