@@ -2,7 +2,7 @@
 
 ## Module
 
-### 1. npm i react-bootstrap bootstrap
+### 1. npm i react-bootstrap bootstrap --force
 
 ### 2. npm i @reach/router --force
 
